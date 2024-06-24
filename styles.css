@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+    line-height: 1.6;
+}
+section .container {
+    text-align: right; /* Align text to the right within containers */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #141414;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #3E95CF;
+}
+
+.banner {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 48px;
+}
+
+.banner h1 span {
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #3E95CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: flex-end; /* Align sections to the right */
+}
+
+section h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+section ul li a:hover {
+    color: #3E95CF;
+}
+
+section .container {
+    text-align: center;
+}
+
+section .news-article,
+section .recommended-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+section .news-article img,
+section .recommended-article img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+section .news-article h3,
+section .recommended-article h3 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+section .news-article p,
+section .recommended-article p {
+    color: #ccc;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section .news-article a,
+section .recommended-article a {
+    color: #3E95CF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section .news-article a:hover,
+section .recommended-article a:hover {
+    text-decoration: underline;
+}
+
+#image_section {
+    background-color: #141414;
+    text-align: center;
+}
+
+#image_section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#image_section .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#image_section .image-gallery img {
+    margin: 10px;
+    max-width: 300px;
+    height: auto;
+}
+
+footer {
+    background-color: #141414;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #3E95CF;
+}
+
+.news-article p {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 15px; /* Add padding for spacing */
+    border: 2px solid #0f0f0f; /* Outline color matches background color with a darker shade */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 400px; /* Limit width for readability */
+    margin: 0 auto; /* Center the box */
+    text-align: center; /* Center text */
+}
+
+#categories ul {
+    padding: 20px; /* Add padding for spacing */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border: 2px solid #0f0f0f; /* Outline color matches background color with a darker shade */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 400px; /* Limit width for readability */
+    margin: 0 auto; /* Center the box */
+    text-align: center; /* Center text */
+}
+#categories, #for_you, #news {
+    margin-left: auto; /* Move sections to the very right */
+}
+
